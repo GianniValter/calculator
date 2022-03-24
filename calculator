@@ -1,1 +1,187 @@
 [{"/home/jary/Documents/projets/calculatrice/src/index.js":"1","/home/jary/Documents/projets/calculatrice/src/App.js":"2","/ home/jary/Documents/projets/calculatrice/src/reportWebVitals.js":"3","/home/jary/Documents/projets/calculatrice/src/components/App.js":"4"},{"size ":227,"mtime":1607978088976,"results":"5","hashOfConfig":"6"},{"size":528,"mtime":1607597492496,"results":"7","hashOfConfig ":"6"},{"size":362,"mtime":1607597492532,"results":"8","hashOfConfig":"6"},{"size":4499,"mtime":1607980675567, "results":"9","hashOfConfig":"6"},{"filePath":"10","messages":"11","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"12"}, "olz6ve",{"filePath":"13","messages":"14","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath" :"15","messages":"16","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"17","messages" :"18","errorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},"/home/jary/Documents/projets/calculatrice/src/index.js",[],["19","20"],"/home/jary/Documents/projets/calculatrice/src/App.js" ,[],"/home/jary/Documents/projets/calculatrice/src/reportWebVitals.js",[],"/home/jary/Documents/projets/calculatrice/src/components/App.js",["21 "],{"ruleId":"22","replacedBy":"23"},{"ruleId":"24","replacedBy":"25"},{"ruleId":"26","gravité ":1,"message":"27","line":2,"column":8,"nodeType":"28","messageId":"29","endLine":2,"endColumn": 16},"no-native-reassign",["30"],"no-negated-in-lhs",["31"],"no-unused-vars","'ReactDOM' est défini mais jamais utilisé.","Identifier","unusedVar","no-global-assign","no-unsafe-negation"] 
+Dwu#@CwC2RLbegwTS*fj5e@
+importer  React  depuis  'react' ;
+importer  ReactDOM  depuis  'react-dom' ;
+
+la classe  App  étend  React . Composant  {
+    rendre ( ) {
+        retour (
+
+           < div >
+
+                < div  class = "row mt-5" >
+                    < div  class = "col-md-12 d-flex justifier-content-center" >
+                        < nom du formulaire  = "Cal" >
+                        < classe div  = "ligne" >
+                            < div  class = "col-md-12 p-0" >
+                            < div  class = "form-group" >
+                                < textarea  class = "form-control"  rows = "3"  id = "total"  type = "text"  name = "ans" > < / textarea >
+                            < / div >
+                            < / div >
+                        < / div >
+                < classe div  = "ligne" >
+                    < classe div  = "col-xs-4" >
+                        < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '1'" > 1 < / bouton >
+                    < / div >
+                        < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '2'" > 2 < / bouton >
+                        < / div >
+                        < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '3'" > 3 < / bouton >
+                        < / div >
+                    < / div >
+                        < classe div  = "ligne" >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '4'" > 4 ​​< / bouton >
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '5'" > 5 < / bouton >
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '6'" > 6 < / bouton >
+                            < / div >
+                        < / div >
+                        < classe div  = "ligne" >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '7'" > 7 < / bouton >
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '8'" > 8 ​​< / bouton >
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '9'" > 9 < / bouton >	
+                            < / div >
+                        < / div >
+                        < classe div  = "ligne" >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '+'" > + < / bouton >	
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '0'" > 0 < / bouton >	
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '-'" > - < / bouton >
+                            < / div >
+                        < / div >
+                        < classe div  = "ligne" >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '/'" > / < / bouton >
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "Cal.ans.value += '*'" > * < / bouton >
+                            < / div >
+                            < classe div  = "col-xs-4" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "retour arrière()" > ⟵ < / bouton >
+                            < / div >
+                        < / div >
+                        < classe div  = "ligne" >
+                            < div  class = "col-xs-6 p-0" >
+                            < button  type = "button"  class = "btn"  onclick = " Cal.ans.value = eval(Cal.ans.value)" > = < / button >
+                            < / div >
+                            < div  class = "col-xs-6 p-0" >
+                            < bouton  type = "bouton"  class = "btn"  onclick = "clearscreen()" > CE < / bouton >
+                            < / div >
+                        < / div >
+                        < / formulaire >
+                    < / div >
+                    < / div >
+    < / div >
+
+        )
+    }
+
+}
+
+
+
+/*==== EXPORTATION PAR DÉFAUT ===*/
+exporter l'  application par défaut  ; 
+/*W3hubs.com - Téléchargez gratuitement des modèles de mise en page de site Web réactifs conçus sur HTML5 CSS3,
+Bootstrap, Tailwind CSS qui sont 100% compatibles avec les mobiles. w3Hubs toutes les mises en page sont compatibles avec tous les navigateurs,
+conceptions de classe mondiale de la meilleure qualité. * /
+corps {
+  marge :  0 ;
+  font-family : -apple-system , BlinkMacSystemFont ,  'Segoe UI' ,  'Roboto' ,  'Oxygen' ,
+    'Ubuntu' ,  'Cantarell' ,  'Fira Sans' ,  'Droid Sans' ,  'Helvetica Neue' ,
+    sans empattement ;
+  -webkit-font-smoothing : anticrénelé ;
+  -moz-osx-font-smoothing : niveaux de gris ;
+}
+
+code {
+  font-family : source-code-pro , Menlo , Monaco , Consolas ,  'Courier New' ,
+    monospace ;
+}
+    box-sizing : border-box;
+    débordement-x : caché ;
+    fond :  # 574b90 ;
+    font-family :  'Lato' , sans-serif;
+  }
+
+  . col-xs-4 {
+    rembourrage :  0 ;
+  }
+
+  . contrôle de formulaire {
+    border-color :  # 6c5ce7  !important ;
+  }
+
+  bouton ,
+  zone de texte {
+    border-radius :  0 px  !important ;
+    taille de police :  24 px  !important ;
+  }
+
+  entrée [ type = nombre ] :: -webkit-inner-spin-button ,
+  entrée [ type = nombre ] :: -webkit-outer-spin-button {
+    -apparence webkit : aucune ;
+    marge :  0 ;
+  }
+
+  bouton {
+    largeur :  100 px ;
+    text-align : center;
+    rembourrage :  15 px  !important ;
+    contour : aucun;
+    couleur de fond :  # 546de5  !important ;
+    border-color :  # 6c5ce7  !important ;
+    couleur :  # fff  !important ;
+  }
+
+  . btn-primaire : focus ,
+  . btn-primaire ,
+  . contrôle de formulaire : focus {
+    box-shadow : aucun !important ;
+  }
+
+  . bouton col-xs-6  {
+    largeur :  150 px ;
+  }
+
+  . form-control : nième-enfant ( 1 ) {
+    hauteur :  150 px ;
+  }
+
+  . groupe-formulaire {
+    marge-bas :  0 px ;
+  } 
+  importer  React  depuis  'react' ;
+importer  ReactDOM  depuis  'react-dom' ;
+importer  './index.css' ;
+importer l'  application  depuis  './App' ;
+importez  reportWebVitals  depuis  './reportWebVitals' ;
+import  'bootstrap/dist/css/bootstrap.min.css' ;
+
+ReactDOM . rendre (
+  < Réagissez . Mode strict >
+    < Application  / >
+  < / Réagissez . Mode Strict > ,
+  documenter . getElementById ( 'racine' )
+importer l'  application  depuis  './components/App' ;
+ReactDOM . rendu ( < App / > , document . getElementById ( 'root' )
+) ;
+
+// Si vous souhaitez commencer à mesurer les performances de votre application, passez une fonction
+// pour consigner les résultats (par exemple : reportWebVitals(console.log))
+// ou envoyer à un point de terminaison d'analyse. En savoir plus : https://bit.ly/CRA-vitals
+rapportWebVitals ( ) ;
